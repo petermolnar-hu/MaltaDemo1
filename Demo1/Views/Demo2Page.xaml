@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage x:Name="Page" xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Demo1.Demo2Page">
+	<Label Text="{Binding Name, StringFormat='This is the name: {0}'}" />
+	<ListView ItemsSource="{Binding Books}" HasUnevenRows="true" RowHeight="-1">
+		<ListView.ItemTemplate>
+			<DataTemplate>
+				<ViewCell>
+					<StackLayout Orientation="Vertical">
+						<Label Text="{Binding Title}" Margin="10" />
+						<Label Text="{Binding Details}" Margin="10" />
+						<Button Text="View details" Command="{Binding BindingContext.DetailsCommand, Source={x:Reference Page}" CommandParameter="{Binding}" />
+					</StackLayout>
+				</ViewCell>
+			</DataTemplate>
+		</ListView.ItemTemplate>
+	</ListView>
+</ContentPage>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:Demo1" x:Class="Demo1.Demo1Page"
+		>
+	<StackLayout Margin="10">
+		<Label Text="Enter name" HorizontalOptions="Center" />
+		<Entry x:Name="mainEntry" Text="{Binding Name, Converter={StaticResource cnv_test}}" />
+		<Button Text="Check available" HorizontalOptions="Center" Style="{StaticResource ConfirmButton}"
+			Command="{Binding CheckValidityCommand}" CommandParameter="Check"
+			/>
+		<Label BindingContext="{x:Reference mainEntry}" Text="{Binding Text}" />
+	</StackLayout>
+</ContentPage>

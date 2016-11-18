@@ -1,0 +1,49 @@
+﻿<Properties StartupConfiguration="{07F1CD1B-626F-4BE5-9840-97B44CBB94C9}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="iOSsample/QSTodoService.cs">
+    <Files>
+      <File FileName="../../../../Demo1/Repositories/AzureBooksRepository.cs" Line="33" Column="1" />
+      <File FileName="../../../../iOS/Main.cs" Line="17" Column="1" />
+      <File FileName="../../../../Demo1/packages.config" Line="1" Column="1" />
+      <File FileName="../../../../iOS/AppDelegate.cs" Line="17" Column="65" />
+      <File FileName="iOSsample/ToDoItem.cs" Line="11" Column="1" />
+      <File FileName="../../../../Demo1/DTO/Book.cs" Line="13" Column="40" />
+      <File FileName="iOSsample/AppDelegate.cs" Line="1" Column="1" />
+      <File FileName="iOSsample/QSTodoListViewController.cs" Line="1" Column="1" />
+      <File FileName="iOSsample/QSTodoService.cs" Line="14" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Demo1" expanded="True">
+            <Node name="Demo1" expanded="True">
+              <Node name="Packages" expanded="True" />
+              <Node name="DTO" expanded="True" />
+              <Node name="Repositories" expanded="True" />
+              <Node name="Services" expanded="True" />
+            </Node>
+            <Node name="Demo1.iOS" expanded="True">
+              <Node name="References" expanded="True">
+                <Node name="From Packages" expanded="True" />
+              </Node>
+              <Node name="ComponentReferenceFolder" expanded="True" />
+            </Node>
+          </Node>
+          <Node name="iOSsample" expanded="True">
+            <Node name="iOSsample" expanded="True">
+              <Node name="QSTodoService.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
+  <MonoDevelop.Ide.ItemProperties.iOSsample PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.824E57AB-8DC0-4591-B2C5-DBDA5CEAE09C" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/sergiubuceac/Desktop/Demo/Demo1/Droid/MainActivity.cs" line="39" column="1" />
+      <Breakpoint file="/Users/sergiubuceac/Desktop/Demo/Demo1/Demo1/Repositories/AzureBooksRepository.cs" line="27" column="10" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
